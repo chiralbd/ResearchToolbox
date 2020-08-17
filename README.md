@@ -1,4 +1,4 @@
-# Introdcution to for Researchers(LaTeX4Researchers)
+# Research Toolbox: Introdcution to for Researchers(LaTeX4Researchers)
 
 ## What is LaTeX?
 LaTeX, pronounced lay-tech, is a document preparation system commonly used by scientists, engineers, mathematicians and other professionals. Unlike a typical “what you see is what you get” word processor such a Microsoft Word, LaTeX uses a plain text markup language which is compiled into a PDF document using optimal typographical rules. This results in professional-looking documents that are of a different class to the output from a word processor. The numerous customisation options in LaTeX allow for the creation of a diversity of documents with precise control over layout and formatting. LaTeX lends itself well to the creation of templates which do not require advanced knowledge of LaTeX to use and manipulate, allowing a novice LaTeX user to create beautiful documents and learn LaTeX as they go.
