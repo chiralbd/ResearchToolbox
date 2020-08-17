@@ -17,6 +17,14 @@ The current version of LaTeX is 2e which was first released in 1994. This may ma
 - Longevity
 
 ## Outline
+
+Topic | Concepts | Reading Material |
+:-- | :--: | :--: | :--:
+Introdcution | Overview, Install LaTeX, Create First Document, Sections, Level and ToC | [URL]()
+Styling Pages | Paper Size and Margins, Page Styles(Header and Footer,More on formatting pages (Writing footnotes, Orientation, page breaks), Multicolumn document (multicol package) , • Reading error messages | [URL]()
+
+
+
 - **Topic-1:** Introdcution
 - **Topic-2:** Styling Pages
 - **Topic-3:** Formatting Content
