@@ -6,16 +6,17 @@
 
 
 \begin{document}
-	\maketitle 
-	
-	
+% Title Page 
+\maketitle 
 \section*{\LARGE Course Outline and Resources}
+
 
 \section*{Install \LaTeX} 
 \begin{itemize}
 	\item Windows: \url{https://miktex.org/}
 	\item Linux: sudo apt install texlive-latex-extra
 \end{itemize}
+
 
 \section*{{\LaTeX} Editor -- Online}
 \begin{itemize}
@@ -25,12 +26,13 @@
 	\item CoCalc: \url{https://cocalc.com/doc/latex-editor.html}
 \end{itemize}
 
+
 \section*{{\LaTeX} Editor -- Offline}
 \begin{itemize}
 	\item TexStudio: \url{https://www.texstudio.org/}
 	\item Texmaker: \url{https://www.xm1math.net/texmaker/}
-	
 \end{itemize}
+
 
 \section*{Resources} 
 \begin{itemize}
@@ -48,19 +50,29 @@
 	\item Install \LaTeX 
 	\item Create a First {\LaTeX} Document 
 	\item Section Levels and ToC(Table of Contents)
-\end{itemize}
- 
-\section*{Section-2: Styling Pages} 
-\begin{itemize}
-	\item Basics  
-	\item Paper Size and Margins  
-	\item Page Styles (Header and Footer)
-	\item More on Formatting (Footnotes, Orientation, Page Break) 
-	\item Multicolumn Document(multicol package)
+	\item Comments 
 \end{itemize}
 
 
-\section*{Section-3: Formatting Content} 
+\section*{Before Section-2: Package Vs Class}
+\subsection*{Class} 
+Class files have .cls extension and are responsible for the overall layout, 
+structuring (organizing), and formatting of a document. For example, a book 
+class contains chapters, sections, parts; while an article contains sections, 
+subsections. Each of which has a different set and style of formatting. The 
+class files will be available on your system as article.cls, book.cls, etc..
+
+\subsection*{Packages} 
+Packages have a .sty extension also called as style files. The primary 
+objective of the package is to add some functionality, irrespective of the 
+class in which it will be used. Some examples to note are, 'geometry' package, 
+that is used to specify margins and paper size; 'graphicx' package, that is 
+used to include an image, etc.. All of these can be used in any class. The 
+packages will be available on your system as geometry.sty, graphicx.sty, etc.. 
+The coming sessions make use of the packages.
+
+
+\section*{Section-2: Formatting Content} 
 \begin{itemize}
 	\item Formatting Text 
 	\item Coloring Text   
@@ -69,20 +81,49 @@
 	\item Unordered and Ordered List(Bullets and Numbering) 
 \end{itemize}
 
-\section*{Section-4: Table and Images} 
+
+\section*{Section-3: Inserting Images} 
 \begin{itemize}
-	\item Creating Tables  
-	\item Table Boarders
-	\item Merging Rows and Columns 
-	\item Saviour for Large Tables 
-	\item Table Environment 
+	\item Introduction 
+	\item Set the folder path 
 	\item Inserting Image 
-	\item Image Properties 
-	\item Image Boarders 
-	\item Figures and Sub-Figures 
+	\item Captioning, labelling and referencing
 \end{itemize}
 
-\section*{Section-5: Math,Statistics and Chemical Equation} 
+
+\section*{Section-4: Creating Tables} 
+\begin{itemize}
+	\item Introduction 
+	\item Creating Tables 
+	\item Table Boarders  
+	\item Captioning, labelling and referencing
+\end{itemize}
+
+\section*{Section-5: More on Table and Images} 
+\begin{itemize}
+	\item Image Properties 
+	\item Image Positioning
+	\item Image Boarders 
+	\item Table Positioning
+	\item Figures and Sub-Figures 
+	\item Tables and Sub-tables 
+	\item Merging Row and Columns 
+	\item Handling Large Tables 
+\end{itemize}
+
+ 
+\section*{Section-6: Styling Pages} 
+\begin{itemize}
+	\item Paper Size: \url{https://en.wikipedia.org/wiki/Paper_size}
+	\item Paper Size and Margins  
+	\item Page Styles (Header and Footer)
+	\item More on Formatting (Footnotes, Orientation, Page Break) 
+	\item Multicolumn Document(multicol package)
+\end{itemize}
+
+
+
+\section*{Section-7: Math,Statistics and Chemical Equation} 
 \begin{itemize}
 	\item Math Environment 
 	\item Equations 
@@ -92,7 +133,7 @@
 	\item Chemical Equations  
 \end{itemize}
 
-\section*{Section-6: Referencing and Indexing} 
+\section*{Section-8: Referencing and Indexing} 
 \begin{itemize}
 	\item Creating Title Page 
 	\item Hyperlinks 
@@ -102,7 +143,7 @@
 \end{itemize}
 
 
-\section*{Section-7: Presentation using Beamer} 
+\section*{Section-9: Presentation using Beamer} 
 \begin{itemize}
 	\item Introduction to Beamer 
 	\item Blocks and Columns 
@@ -113,7 +154,7 @@
 \end{itemize}
 
 
-\section*{Section-8: Projects} 
+\section*{Section-10: Projects} 
 \begin{itemize}
 	\item Article Writing 
 	\item Research Paper  

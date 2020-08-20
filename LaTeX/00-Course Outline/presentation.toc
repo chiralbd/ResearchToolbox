@@ -1,0 +1,13 @@
+\beamer@sectionintoc {1}{What is {\LaTeX }?}{2}{0}{1}
+\beamer@sectionintoc {2}{What's Different?}{3}{0}{2}
+\beamer@sectionintoc {3}{What can be done?}{4}{0}{3}
+\beamer@sectionintoc {4}{Why{\LaTeX }?}{5}{0}{4}
+\beamer@sectionintoc {5}{Process of Writing}{6}{0}{5}
+\beamer@sectionintoc {6}{Some Sample {\LaTeX } Documents}{7}{0}{6}
+\beamer@sectionintoc {7}{Install \LaTeX }{8}{0}{7}
+\beamer@sectionintoc {8}{{\LaTeX } Offline IDEs/Editors}{9}{0}{8}
+\beamer@sectionintoc {9}{{\LaTeX } Online IDEs}{10}{0}{9}
+\beamer@sectionintoc {10}{How to choose {\LaTeX } IDEs/Editors}{11}{0}{10}
+\beamer@sectionintoc {11}{Resources}{12}{0}{11}
+\beamer@sectionintoc {12}{You'll Learn \dots }{13}{0}{12}
+\beamer@sectionintoc {13}{Projects}{14}{0}{13}

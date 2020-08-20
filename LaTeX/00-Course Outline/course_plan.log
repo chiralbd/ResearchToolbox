@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  18 AUG 2020 22:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2020.8.11)  20 AUG 2020 17:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -230,13 +230,13 @@ LaTeX Info: Redefining \nameref on input line 8.
 \openout3 = `course_plan.out'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <20.74> on input line 10.
+(Font)              <20.74> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 10.
+(Font)              <14.4> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 10.
+(Font)              <12> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 10.
+(Font)              <7> on input line 11.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <17.28> on input line 14.
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 16.
@@ -251,31 +251,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 16.
 
-Overfull \hbox (24.06055pt too wide) in paragraph at lines 23--25
+Overfull \hbox (24.06055pt too wide) in paragraph at lines 24--26
 []\OT1/cmr/m/n/12 Latexbae: []$\OT1/cmtt/m/n/12 https : / / latexbase . com / d
  / 1648f17f-[]f52f-[]4653-[]8bca-[]7c9066c9a8de$[] 
  []
 
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 162.
+ [4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 162.
 
 (./course_plan.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 162.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 162.
 Package rerunfilecheck Info: File `course_plan.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 162.
  ) 
 Here is how much of TeX's memory you used:
- 4711 strings out of 494553
- 70673 string characters out of 6177377
+ 4718 strings out of 494553
+ 70751 string characters out of 6177377
  162185 words of memory out of 5000000
- 8374 multiletter control sequences out of 15000+600000
- 10207 words of font info for 36 fonts, out of 8000000 for 9000
+ 8375 multiletter control sequences out of 15000+600000
+ 10514 words of font info for 37 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  28i,7n,21p,240b,385s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
@@ -284,10 +284,10 @@ r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on course_plan.pdf (3 pages, 72217 bytes).
+Output written on course_plan.pdf (4 pages, 75933 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
- 17 named destinations out of 1000 (max. 500000)
+ 83 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
+ 23 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

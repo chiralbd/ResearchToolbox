@@ -1,0 +1,194 @@
+%1.Introduction to Beamer 
+%2.Blocks and Columns 
+%3.Overlays 
+%4.Customize Themes 
+%5.Aspect Ratio 
+%6.Recapitulate 
+
+\documentclass[dvipsnames, aspectratio=169]{beamer} 
+
+% Packages 
+\usetheme{Madrid} %theme 
+\usecolortheme{default} %color theme  
+\usepackage{color} %use color 
+\setbeamercolor{structure}{fg=Green} %customize theme  
+\usepackage{verbatim} %write latex code 
+
+%Title Page 
+\title{Introduction to {\LaTeX} for Researchers} 
+\author[Jubayer Hossain]{\Large Jubayer Hossain}
+\institute[HDRO]{\Large Health Data Research Organization} 
+\date{\today}
+
+
+
+\begin{document}
+	\begin{frame}
+		\maketitle 
+	\end{frame}
+
+	\section{What is {\LaTeX}?} 
+	\begin{frame}[t]{What is {\LaTeX}?}\vspace{10pt}
+		\begin{itemize}
+			\item Document preparation system 
+			\item {\LaTeX} was written by \textbf{Leslie Lamport} 
+			\item Free software 
+			\item License: LaTeX Project Public License 
+			\item Website: \url{https://www.latex-project.org/}
+		\end{itemize}
+	\end{frame}
+
+	\section{What's Different?} 
+	\begin{frame}[t]{What's Different?}\vspace{10pt}
+		\begin{itemize}
+			\item It is not WYSIWYG.
+			\item Concentrate on content writing and not formatting.
+			\item Write simple commands for formatting.
+			\item Write content and complex mathematical formulae with ease. 
+		\end{itemize}
+	\end{frame}
+
+	\section{What can be done?} 
+	\begin{frame}[t]{What can be done?}\vspace{10pt} 
+		\begin{itemize}
+			\item Write articles, books, scientific journals and papers.
+			\item Design posters, banners, presentation, resume etc.
+			\item Mostly used by writers and engineers.
+		\end{itemize}
+	\end{frame}
+
+	\section{Why{\LaTeX}?} 
+	\begin{frame}[t]{Why {\LaTeX}?} \vspace{10pt} 
+	\begin{itemize}
+		\item Quality and Aesthetics.
+		\item Price
+		\item Editing, Versioning and Outputs
+		\item Focus on Content
+		\item Time Investment
+		\item Longevity
+	\end{itemize}
+	\end{frame}
+
+
+	\section{Process of Writing} 
+	\begin{frame}[t]{Process of Writing}\vspace{10pt}
+	\begin{itemize}
+		\item Write content using any text editor.
+		\begin{itemize}
+			\item notepad
+			\item gedit
+			\item {\LaTeX} IDEs(TexStudio, Texmaker)
+		\end{itemize}
+		\item Save it as .tex file 
+		\item Output: .tex File(Input) $\longrightarrow$  
+		pdflatex .tex(Build) $\longrightarrow$  .pdf File(Output)
+	\end{itemize}
+	\end{frame}
+
+	\section{Some Sample {\LaTeX} Documents} 
+	\begin{frame}[t]{Some Sample {\LaTeX} Documents} \vspace{10pt}
+		\begin{itemize}
+			\item Show some sample {\LaTeX} documents
+			\item Comparison with other word processor(Microsoft Word, Google 
+			Doc etc.)
+		\end{itemize}
+	\end{frame}
+
+	\section{Install \LaTeX} 
+	\begin{frame}[t]{Install \LaTeX} \vspace{10pt}
+		\begin{itemize}
+			\item Windows\\
+			\url{https://miktex.org/}
+			\item Linux(Ubuntu) \\ 
+			sudo apt install texlive-latex-extra
+		\end{itemize}
+	\end{frame}
+
+
+	\section{{\LaTeX} Offline IDEs/Editors}
+	\begin{frame}[t]{{\LaTeX} Offline IDEs/Editors}\vspace{10pt}
+		\begin{itemize}
+			\item TexStudio \\
+			\url{https://www.texstudio.org/}
+			\item Texmaker \\
+			\url{https://www.xm1math.net/texmaker/}
+			\item Kile \\
+			\url{https://kile.sourceforge.io/}
+			\item TeXworks \\
+			\url{http://www.tug.org/texworks/}
+		\end{itemize}
+	\end{frame}
+
+	\section{{\LaTeX} Online IDEs}
+	\begin{frame}[t]{{\LaTeX} Online IDEs/Editors}\vspace{10pt}
+	\begin{itemize}
+		\item Sharelatex/Overleaf \\
+		 \url{https://www.overleaf.com/}
+		\item Latexbae \\ 
+		\url{https://latexbase.com/d/1648f17f-f52f-4653-8bca-7c9066c9a8de}
+		\item CoCalc \\
+		\url{https://cocalc.com/doc/latex-editor.html}
+	\end{itemize}
+	\end{frame}
+
+	\section{How to choose {\LaTeX} IDEs/Editors}
+	\begin{frame}[t]{How to choose {\LaTeX} IDEs/Editors}\vspace{10pt}
+	\begin{itemize}
+		\item Auto complete of {\LaTeX} commands. 
+		\item Parenthesis matching. 
+		\item Collapsible sections
+		\item Inverse search
+		\item Collaboration 
+		\item Public project 
+		\item Private project 
+		\item Track changes 
+		\item History 
+		\item Comments \\ 
+		See More: \url{https://en.wikipedia.org/wiki/Comparison_of_TeX_editors}
+	\end{itemize}
+	\end{frame}
+	
+	\section{Resources} 
+	\begin{frame}[t]{Resources}\vspace{10pt}
+	\begin{itemize}
+		\item \url{https://www.latex-project.org/help/documentation/}
+		\item \url{https://www.overleaf.com/learn}
+		\item \url{https://www.latex-tutorial.com/}
+		\item \url{https://www.latextemplates.com/} 
+		\item \url{https://en.wikibooks.org/wiki/LaTeX/Mathematics}
+	\end{itemize}
+	\end{frame}
+
+	\section{You'll Learn \dots}
+	\begin{frame}[t]{You'll Learn \dots} \vspace{10pt}
+		\begin{itemize}
+			\item Introduction
+			\item Sections and Levels 
+			\item Content Formatting
+			\item Ordered and Unordered List 
+			\item Nested List 
+			\item Inserting Images 
+			\item Inserting Tables 
+			\item Page Styles 
+			\item Reference Management using BibTeX and Mendeley 
+			\item Presentation using Beamer 
+		\end{itemize}
+	\end{frame}
+
+	\section{Projects}
+	\begin{frame}[t]{Projects}\vspace{10pt}
+	\begin{enumerate}
+		\item Report / Assignment Writing 
+		\item Thesis Writing
+		\item Research Paper  Writing
+		\item Conference Poster Design 
+	
+	\end{enumerate}
+	\end{frame}
+	
+	
+	\begin{frame}
+		\centering \LARGE Let's Start Coding \dots!
+	\end{frame}
+	
+\end{document}
